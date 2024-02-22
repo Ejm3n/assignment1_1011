@@ -1,0 +1,44 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vs/Assignment1_1011/v16/ipch/AutoPCH/3b896ba8362c3028/GAMEOBJECT.ipch
+.vs/Assignment1_1011/v16/.suo
+.vs/Assignment1_1011/v16/Browse.VC.db
+.vs/Assignment1_1011/v16/Browse.VC.db-shm
+.vs/Assignment1_1011/v16/Browse.VC.db-wal
+.vs/Assignment1_1011/v16/Browse.VC.opendb
+.vs/Assignment1_1011/v16/ipch/AutoPCH/52528b7a4313bbb4/UNDEAD.ipch
+.vs/Assignment1_1011/v16/ipch/AutoPCH/afdd547d12d8b0de/WIZARD.ipch
+.vs/Assignment1_1011/v16/ipch/AutoPCH/ea6a7ea27adf0f71/ENEMY.ipch
+.vs/Assignment1_1011/v16/ipch/AutoPCH/f7a9d6ee8ade80ff/ORC.ipch
+.vs/Assignment1_1011/v16/ipch/AutoPCH/f83b59d54126c434/PLAYER.ipch
+.vs/Assignment1_1011/v16/ipch/AutoPCH/fa151d93ddedc9ff/ASSIGNMENT1_1011.ipch
