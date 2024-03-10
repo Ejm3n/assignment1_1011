@@ -13,12 +13,14 @@ int main() {
     srand(static_cast<unsigned int>(time(nullptr)));
 
     std::cout << "Welcome to the Epic Fantasy Duel" << std::endl;
-
-    // Player setup
     std::string characterType;
     std::string characterName;
-    std::cout << "Choose your character class (Wizard/Knight): ";
-    std::getline(std::cin, characterType);
+    // Player setup
+    do
+    {      
+        std::cout << "Choose your character class (Wizard/Knight): ";
+        std::getline(std::cin, characterType);       
+    } while (characterType != "Wizard" && characterType != "Knight");
     std::cout << "Enter your character's name: ";
     std::getline(std::cin, characterName);
 
@@ -26,10 +28,9 @@ int main() {
     if (characterType == "Wizard") {
         playerCharacter = std::make_unique<Wizard>(characterName);
     }
-    else { 
+    else {
         playerCharacter = std::make_unique<Knight>(characterName);
     }
-
     // Player summary
     std::cout << "\nPlayer Class: " << characterType << std::endl;
     std::cout << "Player Name: " << characterName << std::endl;
