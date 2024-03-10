@@ -5,8 +5,11 @@ class Orc : Enemy
 {
 public:
 	static std::string speciesName;
-	std::string* taunts;
+	std::string taunts[3] 
+		= { "You swing like an elf", "My grandma murders better than you, and she's dead", "Never been stabbed before? you'll get used to it." };
 
-	void TauntPlayer();
+	std::string TauntPlayer(int taunt) {
+		return taunts[taunt];
+	}
 };
 
