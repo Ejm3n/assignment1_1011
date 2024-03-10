@@ -4,10 +4,12 @@ class Enemy : GameObject
 {
 public:
 	int Health;
+	
 
 	void NormalAttack(int Power);
-	virtual void TauntPlayer();
+	virtual std::string TauntPlayer();
 	void Accessors();
 	void Mutators();
+	void SetName();
 };
 
