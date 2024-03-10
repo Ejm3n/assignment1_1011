@@ -2,7 +2,7 @@
 #include <iostream>
 
 Orc::Orc() {
-    taunts = { "Orcish grunt", "Orcish roar" };
+    taunts = { "You swing like an elf", "My grandma murders better than you, and she's dead", "Never been stabbed before? you'll get used to it." };
 }
 
 void Orc::NormalAttack() {
