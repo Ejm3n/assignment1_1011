@@ -3,8 +3,8 @@
 
 class GameObject {
 public:
-    virtual void NormalAttack() = 0;  // Pure virtual function
+    virtual void NormalAttack() = 0;
     virtual ~GameObject() {}
 };
 
-#endif // GAME_OBJECT_H
+#endif
