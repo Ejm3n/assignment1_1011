@@ -1,12 +1,10 @@
-#pragma once
-#include "Player.h"
-#include <string>
-class Wizard
-{
-public:
-	static std::string SpecialAttackName;
-	int SpecialAttackAmount;
 
- 	void SpecialAttack();
+#include "Player.h"
+
+class Wizard : public Player {
+public:
+    Wizard(const std::string& name);
+    void NormalAttack() override;
+    void SpecialAttack() override;
 };
 

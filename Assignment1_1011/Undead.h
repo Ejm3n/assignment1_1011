@@ -1,11 +1,11 @@
-#pragma once
-#include "Enemy.h"
-#include <string>
-class Undead : Enemy
-{
-	static std::string SpecialAttackName;
-	int SpecialAttackAmount;
 
-	void SpecialAttack();
+
+#include "Enemy.h"
+
+class Undead : public Enemy {
+public:
+    Undead();
+    void NormalAttack() override;
+    void TauntPlayer() override;
 };
 

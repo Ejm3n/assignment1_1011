@@ -1,13 +1,21 @@
-#pragma once
-#include "GameObject.h"
-class Enemy : GameObject
-{
-public:
-	int Health;
+#ifndef ENEMY_H
+#define ENEMY_H
 
-	void NormalAttack(int Power);
-	virtual void TauntPlayer();
-	void Accessors();
-	void Mutators();
+#include <string>
+#include <vector>
+#include <iostream>
+
+// Enemy - Abstract Base Class
+class Enemy {
+protected:
+    int health;
+    std::vector<std::string> taunts;
+
+public:
+    Enemy();
+    virtual void TauntPlayer() = 0;
+    virtual void NormalAttack() = 0;
+    virtual ~Enemy();
 };
 
+#endif // ENEMY_H

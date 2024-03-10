@@ -1,7 +1,10 @@
-#pragma once
-class GameObject
-{
+#ifndef GAME_OBJECT_H
+#define GAME_OBJECT_H
+
+class GameObject {
 public:
-	virtual void NormalAttack() = 0;
+    virtual void NormalAttack() = 0;  // Pure virtual function
+    virtual ~GameObject() {}
 };
 
+#endif // GAME_OBJECT_H
