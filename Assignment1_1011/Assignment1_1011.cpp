@@ -33,7 +33,7 @@ int main() {
     // Player summary
     std::cout << "\nPlayer Type: " << characterType << std::endl;
     std::cout << "Player Name: " << characterName << std::endl;
-    std::cout << "Player Health: "<< std::endl;
+    std::cout << "Player Health: 100"<< std::endl;
 
     std::string ready;
     std::cout << "\nAre you ready to start the battle? (yes/no): ";
@@ -49,6 +49,8 @@ int main() {
             enemyCharacter = std::make_unique<Undead>();
         }
         std::cout << "The " <<enemyCharacter->GetSpeciesName() <<" approaches" << std::endl;
+        // Enemy summary
+
 
         enemyCharacter->TauntPlayer();
         playerCharacter->NormalAttack();

@@ -1,5 +1,10 @@
-﻿  GameObject.cpp
+﻿  Assignment1_1011.cpp
+  Enemy.cpp
+  GameObject.cpp
   Knight.cpp
+  Orc.cpp
+  Player.cpp
+  Undead.cpp
   Wizard.cpp
-  Создание кода...
-  Assignment1_1011.vcxproj -> G:\c#hw\Assignment1_1011\x64\Debug\Assignment1_1011.exe
+  Generating Code...
+  Assignment1_1011.vcxproj -> C:\Users\adama\OneDrive\Documents\GitHub\assignment1_1011\x64\Debug\Assignment1_1011.exe
