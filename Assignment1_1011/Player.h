@@ -9,6 +9,7 @@ protected:
 
 public:
     Player(const std::string& name);
+    virtual const std::string& GetSpecialAttack() const = 0;
     virtual void SpecialAttack() = 0;
     virtual ~Player();
 };

@@ -7,6 +7,7 @@ Undead::Undead() {
 
 const std::string Undead::speciesName = "Undead";
 
+
 void Undead::NormalAttack() {
     std::cout << "Undead attacks with chilling touch." << std::endl;
 }

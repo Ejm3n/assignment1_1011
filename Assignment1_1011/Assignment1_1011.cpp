@@ -63,7 +63,7 @@ int main() {
         std::cout << "\nThe "<<enemyCharacter->GetSpeciesName()<< " is defeated! Victory is yours!" << std::endl;
     }
     else {
-        std::cout << "Come back when you're ready to fight!" << std::endl;
+        std::cout << "Come back when you're ready to fight" << std::endl;
     }
 
     return 0;
