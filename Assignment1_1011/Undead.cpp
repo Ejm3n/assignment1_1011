@@ -2,7 +2,7 @@
 #include <iostream>
 
 Undead::Undead() {
-    taunts = { "Undead moans", "Undead whispers" };
+    taunts = { "*grunts in a mean way*", "The undead attempts to say something, but its lower jaw fell off", "It stares rudely but doesnt actually say anything" };
 }
 
 void Undead::NormalAttack() {
