@@ -7,5 +7,6 @@ public:
     static const std::string specialAttackName;
     void NormalAttack() override;
     void SpecialAttack() override;
+    const std::string& GetSpecialAttack() const override { return specialAttackName; }
 };
 

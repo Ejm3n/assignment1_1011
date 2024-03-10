@@ -7,6 +7,8 @@ void Wizard::NormalAttack() {
     std::cout << name << " hits with a magic missile." << std::endl;
 }
 
+const std::string Wizard::specialAttackName = "Fireball";
+
 void Wizard::SpecialAttack() {
-    std::cout << name << " casts a fire ball." << std::endl;
+    std::cout << name << " casts "<< specialAttackName << std::endl;
 }
