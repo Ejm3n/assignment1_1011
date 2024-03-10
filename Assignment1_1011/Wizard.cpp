@@ -8,5 +8,5 @@ void Wizard::NormalAttack() {
 }
 
 void Wizard::SpecialAttack() {
-    std::cout << name << " casts a powerful spell." << std::endl;
+    std::cout << name << " casts a fire ball." << std::endl;
 }
